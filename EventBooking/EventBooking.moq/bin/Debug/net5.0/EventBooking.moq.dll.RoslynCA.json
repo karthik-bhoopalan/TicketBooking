@@ -1,0 +1,138 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "3.9.0.0",
+        "fileVersion": "3.9.0-6.21160.10 (59eedc33)",
+        "semanticVersion": "3.9.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS0219",
+          "level": "warning",
+          "message": "The variable 'userName' is assigned but its value is never used",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Temp/source/repos/EventBooking/EventBooking.moq/EventBookingTest.cs",
+                "region": {
+                  "startLine": 323,
+                  "startColumn": 36,
+                  "endLine": 323,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0219",
+          "level": "warning",
+          "message": "The variable 'userName' is assigned but its value is never used",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Temp/source/repos/EventBooking/EventBooking.moq/EventBookingRepositoryTest.cs",
+                "region": {
+                  "startLine": 402,
+                  "startColumn": 36,
+                  "endLine": 402,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0219",
+          "level": "warning",
+          "message": "The variable 'userName' is assigned but its value is never used",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Temp/source/repos/EventBooking/EventBooking.moq/UnitTest1.cs",
+                "region": {
+                  "startLine": 917,
+                  "startColumn": 36,
+                  "endLine": 917,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0219",
+          "level": "warning",
+          "message": "The variable 'userid' is assigned but its value is never used",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Temp/source/repos/EventBooking/EventBooking.moq/UnitTest1.cs",
+                "region": {
+                  "startLine": 967,
+                  "startColumn": 20,
+                  "endLine": 967,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0219",
+          "level": "warning",
+          "message": "The variable 'userName' is assigned but its value is never used",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/Temp/source/repos/EventBooking/EventBooking.moq/UnitTest1.cs",
+                "region": {
+                  "startLine": 967,
+                  "startColumn": 36,
+                  "endLine": 967,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        }
+      ],
+      "rules": {
+        "CS0219": {
+          "id": "CS0219",
+          "shortDescription": "Variable is assigned but its value is never used",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0219)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
